@@ -1,3 +1,8 @@
+### `incomplete layout ✖ `
+
+> Task:
+Make adaptive layout for your tablet and phone.
+
 ![demo](https://github.com/sieugene/sagirov/blob/master/src/assets/images/gh.png?raw=true)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
