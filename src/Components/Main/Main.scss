@@ -1,0 +1,89 @@
+.content {
+    background-image: url(./../../assets/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+
+    .overlay {
+        background-image: url(./../../assets/images/planet2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 543px;
+        background-position: center;
+        z-index: 99;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 543px;
+    }
+    .content__centered {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+    .content__left {
+        .content__left-text {
+            .title {
+                font-family: MuseoSansCyrl700;
+                font-size: 58px;
+                text-transform: uppercase;
+                margin: 0;
+                padding: 0;
+                background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 63, 4, 1) 90%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .title__second {
+                font-family: MuseoSansCyrl300;
+                font-size: 25px;
+                margin: 0;
+                padding: 0;
+                background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 63, 4, 1) 90%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+        .content__left-button {
+            margin-top: 87px;
+            background-image: url("./../../assets/images/startButton.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            transition: 0.3s all ease;
+            width: 180px;
+            height: 35px;
+            padding-top: 7px;
+            padding-bottom: 10px;
+            text-align: center;
+            a {
+                font-family: MuseoSansCyrl100;
+                font-size: 14px;
+                text-decoration: none;
+                color: white;
+                transition: 0.3s all ease;
+            }
+            &:hover {
+                background-color: #0f0d17;
+                a {
+                    opacity: 0.75;
+                }
+            }
+        }
+    }
+    .content__right {
+        .two__cards {
+            display: flex;
+        }
+    }
+}

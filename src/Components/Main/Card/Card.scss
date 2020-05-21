@@ -1,0 +1,45 @@
+.card__wrap {
+    margin: 10px;
+    .content__right-card {
+        background-color: rgba(255, 255, 255, 0.03);
+        width: 185px;
+        height: 185px;
+        transition: 0.3s all ease;
+        overflow: hidden;
+        cursor: pointer;
+        &:hover {
+            background-color: rgba(38, 44, 52, 0.08);
+            border-right: 1px solid rgba(255, 255, 255, 0.23);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.23);
+        }
+        .body-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100%;
+        }
+        .content__card-title {
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+            font-family: MuseoSansCyrl100;
+            padding-bottom: 29px;
+        }
+        .content__card-info {
+            margin: 0;
+            padding: 0;
+            font-size: 60px;
+            font-family: MuseoSansCyrl700;
+            padding-bottom: 12px;
+        }
+        .content__card-footer {
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+            font-size: 16px;
+            font-family: MuseoSansCyrl100;
+        }
+    }
+}
